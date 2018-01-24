@@ -1,10 +1,14 @@
+#include <iostream> 
+#include <string>
+using namespace std;
+int main() {
+	string jukebox[8] = {"Saint Pablo","Gotta Blast","Don't stop me now","Baby Im yours","Light My Fire","Don,t go breaking my heart","BabyWipe","Redbone"};
+	for (int i = 0; i < 8; i++)
+		cout << jukebox[i] << endl;
 
 
-//instructions for 1-19
-//
-//intro: Write a program that asks a user for how old they are, and then repeats that number back to them in an insult.
-//
-//intermediate: Write a program that prints the numbers 256 down to 32, counting by fours
-//
-//advanced: make an account at HackerRank.com
-//do this problem: https://www.hackerrank.com/challenges/c-tutorial-struct/problem
+
+
+
+
+}
